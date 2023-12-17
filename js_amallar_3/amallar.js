@@ -131,7 +131,7 @@
 
 //--------------------------------------------------------------------------------
 
-// olddan oshirish amali << ++ >> olddan katirish amali << -- >>
+// olddan oshirish amali << ++ >> olddan kamaytirish amali << -- >>
 
 // let a = ++3;
 // let b = 33++;
@@ -141,7 +141,7 @@
 
 //--------------------------------------------------------------------------------
 
-// Guruhlash amali () qavus bilan alohi ajratiladi;
+// Guruhlash amali () qavus bilan alohida ajratiladi;
 
 let a = 3;
     b=4 ;
