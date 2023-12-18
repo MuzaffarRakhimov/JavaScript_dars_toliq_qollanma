@@ -197,3 +197,51 @@ Math.tanh()
 Math.trunc()
 
 //-------------Obyekt ( Object )-------------------
+
+new Object([])
+
+let ob = {b:2,c:'u'};
+ob.d
+ob.__proto__ ={d:9}
+
+//-----------obyekt tamoyillari--------------
+
+Object.assign()
+Object.create()
+Object.defineProperties()
+Object.defineProperty()
+Object.preventExtensions()
+Object.freeze()
+Object.getOwnPropertyDescriptor()
+Object.getPrototypeOf()
+Object.seal()
+Object.is()
+Object.isExtensible()
+Object.isFrozen()
+Object.isSealed()
+Object.getOwnPropertyNames()
+Object.keys()
+Object.setPrototypeOf()
+
+//---------Xarita ( Map )-------------------------------
+
+ let mp = new Map([]);
+
+mp.get()
+mp.set()
+mp.clear()
+mp.delete()
+mp.has()
+mp.size()
+mp.entries()
+mp.forEach()
+mp.forEach()
+mp.keys()
+mp.values()
+
+//-----------JSON----------------------------------------
+
+JSON.parse()
+JSON.stringify()
+
+
