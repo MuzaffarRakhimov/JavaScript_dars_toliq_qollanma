@@ -3,20 +3,20 @@
 // << ; >> ifodalar tugaganini bildiradi
 // << , >> ifodani ajratish , ifodani davom ettirish uchun ishlatiladi
 
-// let x =5 ; let y = 3; // ifoda to'liq yozish
+let x =5 ; let y = 3; // ifoda to'liq yozish
 
-// let d = 5 , b  = 3 ;  // ifoda qisqa yozish
+let d = 5 , b  = 3 ;  // ifoda qisqa yozish
 
 //-------------------------------------------------------------------------
 
 // kengaytirish amali
 // kengaytirish amali Jadval yoki obyekt elementlani , funksiyadi kiruvchi qiymatlani ro'xtini kengaytirish uchun ishalatiladi
 
-// let a=[8,9,25]; b=[12 ,...a]; console.log(b);  // natija [ 12, 8, 9, 25 ]
+let a=[8,9,25]; b=[12 ,...a]; console.log(b);  // natija [ 12, 8, 9, 25 ]
 
-// let s = {min : 17 }; d = {...s , max : 20  }; console.log (d) // natija { min: 17, max: 20 }
+let s = {min : 17 }; d = {...s , max : 20  }; console.log (d) // natija { min: 17, max: 20 }
 
-// bu amal jadval , obyekt , funksiyadan boshqa yerda ishlamaydi.
+//bu amal jadval , obyekt , funksiyadan boshqa yerda ishlamaydi.
 
 //----------------------------------------------------------------------------
 
@@ -24,16 +24,16 @@
 
 // bu amal bir qarashda  "return" ga o'xshab ketadi
 
-// function* generateSequence() {
-//     let index =0;
-//     yield  ++index;
-//   }
+function* generateSequence() {
+    let index =0;
+    yield  ++index;
+  }
 
-//   let generator = generateSequence();
+  let generator = generateSequence();
 
-//   let one = generator.next();
+  let one = generator.next();
 
-//   console.log(JSON.stringify(one));
+  console.log(JSON.stringify(one));
 
 //-----------------------------------------------------------------------------
 
@@ -60,38 +60,38 @@
 // talab amali
 
 // talab ( ?,: ) amali ikki ifodadan birini bajarilishini taminlaydi
-// let yosh = 17;
-// yosh >18 ? ruxsat = true : alert('Mumkin emas');
+let yosh = 17;
+yosh >18 ? ruxsat = true : alert('Mumkin emas');
 
 //--------------------------------------------------------------------------------
 
 // yoki amali  || orqali bajariladi
  
-// let a =1
-//     b= 2
-//     c=3;
+let a_ =1
+    b= 2
+    c=3;
 
-//  console.log(a>b||b>c||c>a); 
+ console.log(a_>b||b>c||c>a); 
 
 //--------------------------------------------------------------------------------
 
 // va amali && orqali bajariladi
 
-// let a = 1, b = 2, c = 3;
+let _a = 1, _b = 2, c = 3;
 
-// console.log(a<b && b<c);
+console.log(_a<_b && _b<c);
 
 //--------------------------------------------------------------------------------
 
 // mantiqiy tenglik << == >> << === >>  teng emas << !== >>
 
 
-// let a=1
-//    b=2
-//     c=3;
-// console.log(a==b); // false
-// console.log(b===2); // true
-// console.log(b!==2); // false 
+let a1=1
+   b=2
+    c=3;
+console.log(a1==b); // false
+console.log(b===2); // true
+console.log(b!==2); // false 
 
 //--------------------------------------------------------------------------------
 
@@ -102,49 +102,49 @@
 // "<=" katta yoki teng
 //">=" kichik yoki teng
 
-// let a = 1, b = 2, c = 3;
+let a2 = 1, b2 = 2, c2 = 3;
 
-// console.log(a<b) // true
-// console.log(a>b) // false
-// console.log(a<=b) // true
-// console.log(a>=b) // false
+console.log(a2<b2) // true
+console.log(a2>b2) // false
+console.log(b2<=c2) // true
+console.log(b2>=c2) // false
 
 
 //--------------------------------------------------------------------------------
 
 // << + >> , << - >> , << / >> , << * >>  amallar
 
-// let a=1 
-//     b=2
-//     c=3
-// console.log(a+b);// 3  qo'shish amali
-// console.log(c-b);// 1  ayirish  amali
-// console.log(b*b);// 4  ko'patirish amali
-// console.log((b+b)/b);// 2  bo'lish amali
+let a3=1 
+    b=2
+    c=3
+console.log(a3+b);// 3  qo'shish amali
+console.log(c-b);// 1  ayirish  amali
+console.log(b*b);// 4  ko'patirish amali
+console.log((b+b)/b);// 2  bo'lish amali
 
 //--------------------------------------------------------------------------------
 
 // darajaga oshirish amali << ** >> 
 
-// let a = 3;
-// console.log(a**a ); // 27  
+let a__ = 3;
+console.log(a__**a__ ); // 27  
 
 //--------------------------------------------------------------------------------
 
 // olddan oshirish amali << ++ >> olddan kamaytirish amali << -- >>
 
-// let a = ++3;
-// let b = 33++;
-// let c = --3;
-// let d = 3--;
-// console.log(a);
+let f = ++3;
+let g = 33++;
+let h = --3;
+let j = 3--;
+console.log(f);
 
 //--------------------------------------------------------------------------------
 
 // Guruhlash amali () qavus bilan alohida ajratiladi;
 
-let a = 3;
+let aa = 3;
     b=4 ;
     c= 5 ;
     d= 6 ;
-console.log(a+(b+c)-d);
+console.log(aa+(b+c)-d);

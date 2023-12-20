@@ -1,54 +1,49 @@
-//-------- satr --------------------------------------------------------------------------------------
+//-------- satr ----------------------------------------------------------------
 // < "" > <''> belgilar orasidagi yozuv 
-
 // let bilan  o'zgaruvchini elon qilamiz
 
 let js = "JavaScript " ;// satr yani string 
 let js2 = ' darslari ' ; // satr yani string
 
-// < ` >  bundan ham foydalanish mumkin
 
+// < ` > yani bak slesh bundan ham foydalanish mumkin
 alert(`${js} dasturlash tili`);
 
-// ------Son yani number ------------------------------------------------------------------------------
+// ------Son yani number ----------------------------------------------------------
 
 // butun son  'integer ' yoki qisqa qilib 'int' deyiladi  ----
-
 // haqiqiy son 'float' so'zi bilan belgilanadi  -------------
-
 // cheksizlik "infinity"  ------------------------------------
  
 let misol = 2/0; // infinity  
 
-// Sonmas "NAN "----------------------------------------------
+//------------------------------ Sonmas "NAN "----------------------------------------------
 
 let misol2 = "men" / 2 ; // NAN bo'ladi
 
-//------Maxsus qiymatlar -----------------------------------------------------------------------------
+//----------------------Maxsus qiymatlar -----------------------------------------------------------------------------
 
 // nul hech narsa manosini beruvchi yagona qiymat 
-
 let misol3 = null +12 ; // natijasi 12 bo'ladi
 let misol4 = null + '12'; // natijasi null12 bo'ladi
 
-// 'undefined'  o'zgaruvchini elon qilib unga qiymat bermaslik
 
+
+// 'undefined'  o'zgaruvchini elon qilib unga qiymat bermaslik
 let misol5;  // natijasi undefined 
 
-// --------Mantiqiy tur ------------------------------------------------------------------------------
+// -----------------------Mantiqiy tur ----------------------------------------------------------------
 
 // 'true' rost  va  'false' yolg'on  qiymatlardan birini qabul qiladigan tur "boolean"
-
 // Yolg'on : "false","undefined","null"," 0 " kiradi.
 // Rost : "true" , noldan farqli sonlar , bo'shmas satrlar.
 
 let misol6 = 2*2 > 5 ; // false 
 let misol7 = 2*2 < 5 ; // true 
 
-// ---- Function -------------------------------------------------------------------------------------
+// ----------------------- Function -------------------------------------------------------------------------
 
 // funksiyani elon qilish uchun "function" so'zidan foydalaniladi.
- 
 function nom(){
     // turli amallar 
     // [return qiymat;]
