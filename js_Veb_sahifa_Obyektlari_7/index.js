@@ -237,7 +237,6 @@ document.URL
 
 document.adoptNode()
 document.createAttribute()
-document.createAttribute()
 document.createComment()
 document.createElement()
 document.createDocumentFragment()
@@ -253,6 +252,7 @@ document.hasFocus()
 document.open()
 document.write()
 document.close()
+document.getElementById()
 
 //-----------------document cookie---------------------------------------
 
