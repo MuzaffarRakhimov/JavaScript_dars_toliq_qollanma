@@ -3,7 +3,12 @@ new Number(); // obyekt sifatida aniqlanadi
 
 // Numberni xosalari
 Number.EPSILON;
+// epsilon ikki haqiqiy sonni bir biridan farqi eng kamida qancha bo'lishini aniqlaydi 
+//-------------------------------------------------------------
+
 Number.MAX_SAFE_INTEGER;
+// javascripda qo'llash tavsiya etiladigan eng katta butun son 
+//------------------------------------------------------------
 Number.MAX_VALUE;
 Number.MIN_SAFE_INTEGER;
 Number.MIN_VALUE;
@@ -434,7 +439,10 @@ Math.SQRT2
 
 // matematik funksiyalarni bajarish uchun 
 Math.exp()
+Math.expm1()
 Math.abs()
+Math.cos()
+Math.cosh()
 Math.acos()
 Math.acosh()
 Math.asin()
@@ -443,15 +451,12 @@ Math.atan()
 Math.atan2()
 Math.cbrt()
 Math.ceil()
-Math.cos()
-Math.cosh()
-Math.expm1()
 Math.floor()
 Math.hypot()
 Math.log()
-Math.log10()
 Math.log1p()
 Math.log2()
+Math.log10()
 Math.max()
 Math.min()
 Math.pow()
@@ -481,6 +486,7 @@ Object.defineProperties()
 Object.defineProperty()
 Object.preventExtensions()
 Object.freeze()
+Object.getOwnPropertyNames()
 Object.getOwnPropertyDescriptor()
 Object.getPrototypeOf()
 Object.seal()
@@ -488,7 +494,6 @@ Object.is()
 Object.isExtensible()
 Object.isFrozen()
 Object.isSealed()
-Object.getOwnPropertyNames()
 Object.keys()
 Object.setPrototypeOf()
 

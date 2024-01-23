@@ -50,6 +50,7 @@ window.cancelIdleCallback()
 window.scroll()
 window.scrollBy()
 window.scrollTo()
+window.onsubmit()
 
 
 //-----------Windowni Hodisalari ----------------------------------

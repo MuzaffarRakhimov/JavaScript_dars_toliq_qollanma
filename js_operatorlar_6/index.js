@@ -82,7 +82,7 @@ for(f of di){
    if (f%x==0)
       break;
      let natija =false;
-}
+   }
 return natija;
 }
 
@@ -142,7 +142,6 @@ console.debug()
 console.dir()
 console.dirxml()
 console.error();
-console.dirxml();
 console.group();
 console.groupEnd();
 console.groupCollapsed();
