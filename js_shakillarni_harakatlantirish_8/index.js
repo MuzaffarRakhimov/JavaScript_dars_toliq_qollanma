@@ -3,6 +3,7 @@
 
 let k = new Path2D()
 
+
 k.moveTo()
 k.lineTo()
 k.bezierCurveTo()
