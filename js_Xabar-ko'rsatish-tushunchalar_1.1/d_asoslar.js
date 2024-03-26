@@ -1,5 +1,11 @@
 "use strict";
 
+//OvpVVAcsCiIQztyo
+//mongodb+srv://jnmWeb:OvpVVAcsCiIQztyo@cluster0.i59g5is.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+
+
 //-------------- alert ogohlantirish--------------------------- 
  alert('Muhim xabar !');
 
