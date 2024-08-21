@@ -9,7 +9,7 @@ let d = 5, b = 3;  // ifoda qisqa yozish
 
 //-------------------------------------------------------------------------
 
-// kengaytirish amali
+// kengaytirish amali yani { Spread } operatori
 // kengaytirish amali Jadval yoki obyekt elementlani , funksiyadi kiruvchi qiymatlani ro'xtini kengaytirish uchun ishalatiladi
 
 let a = [8, 9, 25]; b = [12, ...a]; console.log(b);  // natija [ 12, 8, 9, 25 ]
@@ -39,7 +39,7 @@ console.log(JSON.stringify(one));
 
 // Qiymat berish
 
-// Arifmetik amallar << + >> ,<< - >> , << * >> , <</ >> ,<< % >>
+// Arifmetik amallar << + >> ,<< - >> , << * >> , <</>> ,<< % >>
 
 // x = y   x = y ;          Qiymat berish
 // x + = y   x = x + y ;  ...qo'shish bilan

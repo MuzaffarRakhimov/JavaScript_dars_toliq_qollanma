@@ -33,7 +33,7 @@ for (let i = 0; i < 4; i++) {
   //console.log(i)
 }
 
-//---------------for... in -----------------------------------------
+//---------------for... in ------Obyekt uchun yaxshi -----------------------------------
 
 let aa = [1, 2, 3, 4, 5, 6];
 
@@ -42,7 +42,7 @@ for (let son in aa) {
   console.log(bb);
 }
 
-//----------------------for ...of -------------------------
+//----------------------for ...of ---- array uchun yaxshi---------------------
 
 let ss = [1, [], {}, "aa", 2];
 
@@ -75,95 +75,65 @@ for (r of ff)
     s += e;
   }
 
-
-for(f of di){
-   let natija=true;
-  for(x of f){
-   if (f%x==0)
-      break;
-     let natija =false;
-   }
-return natija;
+for (f of di) {
+  let natija = true;
+  for (x of f) {
+    if (f % x == 0) break;
+    let natija = false;
+  }
+  return natija;
 }
 
 //-------------------------Talab operatorlari---------------------------------
 
 //----------------------Try operatori----------------------------------------------
 
-try{
-  'asosiy bolim'
-}catch{
-  'xatolar bolimi'
+try {
+  ("asosiy bolim");
+} catch {
+  ("xatolar bolimi");
+} finally {
+  console.log("xabar berish");
 }
-finally{console.log('xabar berish')}
 
 //---------------------------------throw------------------------------------------
 
-let xato = new Error('xatolik yuz berdi...')
-throw(xato);
+let xato = new Error("xatolik yuz berdi...");
+throw xato;
 
 //----------------------async / await ---------------------------------------
 
-async function bajar(){
-   const w = await fun();
-   console.log(w)
+async function bajar() {
+  const w = await fun();
+  console.log(w);
 }
 
 //-------Vada obyekti -------------------------------------------------
 
-Promise.resolve()
-Promise.reject()
-Promise.rase()
-Promise.all()
+Promise.resolve();
+Promise.reject();
+Promise.rase();
+Promise.all();
 
 //-----------------Error obyekti------------------------------
 
- new Error([ [ []]]);
+new Error([[[]]]);
 
- let er = new Error()
- er.name
- er.message
- er.stack
- InternalError
+let er = new Error();
+er.name;
+er.message;
+er.stack;
 
+InternalError;
 
- URIError
- SyntaxError
- ReferenceError
- RangeError
- EvalError
+URIError;
+SyntaxError;
+ReferenceError;
+RangeError;
+TypeError;
+EvalError;
 
 // ----------------Console obyekti-----------------------------------------------------
 
-console.assert()
-console.count()
-console.countReset()
-console.debug()
-console.dir()
-console.dirxml()
-console.error();
-console.group();
-console.groupEnd();
-console.groupCollapsed();
-console.info();
-console.table();
-console.time();
-console.timeEnd();
-console.trace();
-console.warn();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.dir();
+console.log();
