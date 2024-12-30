@@ -3,7 +3,7 @@
 // << ; >> ifodalar tugaganini bildiradi
 // << , >> ifodani ajratish , ifodani davom ettirish uchun ishlatiladi
 
-let x = 5; let y = 3; // ifoda to'liq yozish
+let x = 5; let number = 3; // ifoda to'liq yozish
 
 let d = 5, b = 3;  // ifoda qisqa yozish
 
